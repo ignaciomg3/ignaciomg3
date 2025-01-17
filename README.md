@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @ignaciomg3
-- 👀 I’m interested in  c#
-- 🌱 I’m currently learning a JS, Git, HTML, CSS
+- 👀 I’m interested in  Testing Automation
+- 🌱 I’m currently learning a Python, Pytest, Selenium
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me Ignaciomg3@gmail.com
 
