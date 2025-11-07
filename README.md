@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @ignaciomg3
-- 👀 I’m interested in  Testing Automation
-- 🌱 I’m currently learning a Python, Pytest, Selenium
+- 👀 I’m interested in  Backend develop
+- 🌱 I’m currently learning a React.js
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me Ignaciomg3@gmail.com
 
