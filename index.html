@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BiciMundo | Bicicletas fijas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="top-strip">ENVÍOS A TODO EL PAÍS</div>
+
+    <header class="header">
+      <div class="brand">
+        <span class="brand-main">BiciMundo</span>
+        <span class="brand-sub">GYM & FITNESS</span>
+      </div>
+
+      <nav class="nav">
+        <a href="#">Inicio</a>
+        <a class="active" href="#">Productos</a>
+        <a href="#">Quiénes somos</a>
+        <a href="#">Contacto</a>
+        <a href="#">¿Cómo llegar?</a>
+        <a href="#">Servicio técnico</a>
+      </nav>
+
+      <div class="actions">
+        <button aria-label="Buscar">🔍</button>
+        <button aria-label="Cuenta">👤</button>
+        <button aria-label="Carrito" class="cart">🛒<span>0</span></button>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="filters card">
+        <p class="breadcrumb">Inicio / <strong>Bicicletas fijas</strong></p>
+        <h2>Filtros</h2>
+
+        <section>
+          <h3>Precio</h3>
+          <div class="price-grid">
+            <label>
+              Desde
+              <input type="number" placeholder="0" />
+            </label>
+            <label>
+              Hasta
+              <input type="number" placeholder="0" />
+            </label>
+          </div>
+          <button class="btn">Aplicar</button>
+        </section>
+      </aside>
+
+      <section class="catalog">
+        <div class="catalog-head card">
+          <h1>Bicicletas fijas</h1>
+          <label>
+            Ordenar por
+            <select>
+              <option>Más vendidos</option>
+              <option>Menor precio</option>
+              <option>Mayor precio</option>
+              <option>Novedades</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="products">
+          <article class="product card">
+            <div class="thumb">🚴</div>
+            <h4>Bicicleta Indoor Daiwa 203</h4>
+          </article>
+          <article class="product card">
+            <div class="thumb">🚴‍♂️</div>
+            <h4>Bicicleta Indoor Daiwa</h4>
+          </article>
+          <article class="product card">
+            <div class="thumb">🚲</div>
+            <h4>Bicicleta Magnética Daiwa</h4>
+          </article>
+          <article class="product card">
+            <div class="thumb">🚴</div>
+            <h4>Bicicleta Magnética Daiwa Pro</h4>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
